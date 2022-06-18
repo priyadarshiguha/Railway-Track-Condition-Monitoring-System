@@ -9,7 +9,10 @@ The proposed track condition monitoring device is designed to run along the rail
 <div align="center"><img src="Images/Working of track condition monitoring system.jpg" width="200"></div>
 
 ## Track Defect Detection Model
-The machine learning model used to determine whether the track surface is actually damaged or not is developed in Python using tools and technologies like TensorFlow, Keras, OpenCV, etc. To train the machine learning model a small track surface image dataset is used. The dataset contains equal number of defective and non-defective track surface images taken under different lighting conditions. Exact number of images present in the dataset are given in the table below. A few examples of the defective and non-defective track surface images are shown in the figures below. All the images in the dataset are of the same type, JPG and of the same dimension of 55 x 110. 
+The machine learning model used to determine whether the track surface is actually damaged or not is developed in Python using tools and technologies like TensorFlow, Keras, OpenCV, etc. The defect detection model is a modified version of the MobileNetV2 model with a few extra layers appended to it accordingly to our specific needs. MobileNetV2 is a convolutional neural network architecture that seeks to perform well on mobile devices.
+<div align="center"><img src="Images/Defect detection model.jpg" width="500"></div>
+
+To train the machine learning model a small track surface image dataset is used. The dataset contains equal number of defective and non-defective track surface images taken under different lighting conditions. Exact number of images present in the dataset are given in the table below. A few examples of the defective and non-defective track surface images are shown in the figures below. All the images in the dataset are of the same type, JPG and of the same dimension of 55 x 110. 
 
 <div align="center">
   <table>
