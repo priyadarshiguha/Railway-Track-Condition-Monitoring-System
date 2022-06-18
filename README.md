@@ -2,7 +2,7 @@
 
 ## Block Diagram
 The railway track condition monitoring device is design to detect any defects in the surface structure of the railway tracks and send appropriate data to the web server on detecting a fault. It uses an accelerometer to sense the bumps, dips and vibrations felt by the device to identify any damage to the track surface. Upon detecting a possible fault area, the system takes an image of the track surface and uses machine learning to identify if the track is damaged and send the image with the type of damage identified along with the current location of the device to the web server. A block diagram of the proposed model is given below along with a brief explanation of the major components to be used in the development of the said model.
-<div align="center"><img src="Images/Block diagram for railway level crossing system.jpg" width="500"></div>
+<div align="center"><img src="Images/Block diagram for track condition monitoring system.jpg" width="500"></div>
 
 ## Working Principle
 The proposed track condition monitoring device is designed to run along the railway tracks and search for any defects on the track surface. To achieve this objective the device uses an accelerometer to sense any sort of dents, dips, cracks, or gaps in the tracks by detecting the vibrations felt by the device that are caused by the damaged track. When damage is detected by the device, the motors take a halt and the camera takes a picture of the surface of the track which is then used by the damage detection model to find out if the track is damaged and the type of damage found, like rust, or cracks and dents. In case of a damage, all the collected information is sent to the web server, then the motors restart and the device resumes its functions.
