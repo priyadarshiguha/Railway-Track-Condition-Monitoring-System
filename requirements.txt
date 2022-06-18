@@ -1,0 +1,7 @@
+tensorflow
+keras
+numpy
+sklearn
+pillow
+pyserial
+mysql-connector-python
